@@ -55,3 +55,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# doms solution (for now)
+solutionDom.py
+bug.py
