@@ -25,7 +25,7 @@ def makeFunctionality(niceName, funcName=None):
 
 
 class Integer(object):
-    '''Acts like a int but counts the Integer of operations done'''
+    '''Acts like an int but counts the operations that are applied'''
     def __init__(self, num):
         self._int = getInt(num)
 

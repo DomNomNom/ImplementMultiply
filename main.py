@@ -1,6 +1,6 @@
 import number
 from exampleSolution import multiply
-from solutionDom import multiply
+# from solutionDom import multiply
 
 solution = 'exampleSolution.py'
 

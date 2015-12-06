@@ -1,18 +1,18 @@
 from number import Integer
 
-def multiply(a, b):
+def multiply(x, y):
 
     # ensure b is positive
-    if b < 0:
-        a = -a
-        b = -b
+    if y < 0:
+        x = -x
+        y = -y
 
-    # add A together B times
+    # add x together b times
     # note: bitshifting could save us a lot of time
     i = Integer(0)
     result = Integer(0)
-    while i < b:
-        result += a
+    while i < y:
+        result += x
         i += 1
 
     return result
