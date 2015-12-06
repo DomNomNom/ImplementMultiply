@@ -19,14 +19,14 @@ testCases = '''
 testCases = [ tuple(map(int, line.split()))  for line in testCases ]
 testCases.append((2**7-1, 2**6-1))
 
-# extend by negating
-extendedCases = []
-for a,b in testCases:
-    extendedCases.append(( a, b))
-    extendedCases.append((-a, b))
-    extendedCases.append(( a,-b))
-    extendedCases.append((-a,-b))
-testCases = extendedCases
+# # extend by negating
+# extendedCases = []
+# for a,b in testCases:
+#     extendedCases.append(( a, b))
+#     extendedCases.append((-a, b))
+#     extendedCases.append(( a,-b))
+#     extendedCases.append((-a,-b))
+# testCases = extendedCases
 
 # extend by swapping
 extendedCases = []
